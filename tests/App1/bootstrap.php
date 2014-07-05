@@ -1,6 +1,6 @@
 <?php
 
-namespace ApplicationTest;
+namespace App1\ApplicationTest;
 
 error_reporting(E_ALL | E_STRICT);
 chdir(__DIR__);
