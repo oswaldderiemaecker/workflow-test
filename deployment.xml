@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- @See: http://files.zend.com/help/Zend-Server-7/zend-server.htm#understanding_the_package_structure.htm -->
+<package xmlns="http://www.zend.com/server/deployment-descriptor/1.0" version="1.0">
+    <type>application</type>
+    <name>WorkflowTest</name>
+    <summary>WorkflowTest Summary</summary>
+    <description>Test Application</description>
+    <version>
+        <release>dev-master</release>
+    </version>
+</package>
