@@ -14,7 +14,7 @@ class Class1Test extends \PHPUnit_Framework_TestCase
 
     public function testMethod1()
     {
-        $this->instance->method1();
+        $this->instance->method1xxx();
         $this->assertTrue(true);
     }
 
