@@ -6,6 +6,8 @@ class Class1
 {
     public function method1()
     {
+        require('test.php');
+
         $var1 = 'var1';
         $var2 = 'var2';
     }
