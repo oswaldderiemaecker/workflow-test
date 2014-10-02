@@ -6,7 +6,7 @@ class Class1
 {
     public function method1()
     {
-        require('test.php');
+        fopen('test.php', 'rw');
 
         $var1 = 'var1';
         $var2 = 'var2';
