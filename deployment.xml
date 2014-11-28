@@ -2,8 +2,8 @@
 <!-- @See: http://files.zend.com/help/Zend-Server-7/zend-server.htm#understanding_the_package_structure.htm -->
 <package xmlns="http://www.zend.com/server/deployment-descriptor/1.0" version="1.0">
     <type>application</type>
-    <name>WorkflowTest2</name>
-    <summary>WorkflowTest2 Summary</summary>
+    <name>WorkflowTest4</name>
+    <summary>WorkflowTest4 Summary</summary>
     <description>Test Application</description>
     <version>
         <release>dev-master</release>
