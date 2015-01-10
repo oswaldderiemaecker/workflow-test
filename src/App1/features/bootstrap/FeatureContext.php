@@ -41,4 +41,12 @@ class FeatureContext extends BehatContext
 //        doSomethingWith($argument);
 //    }
 //
+
+    /**
+     * @Given /^step (\d+)$/
+     */
+    public function step($arg1)
+    {
+        // step definition
+    }
 }
