@@ -14,5 +14,20 @@ class Class1
     {
         $var3 = 'var3';
         $var4 = 'var4';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
