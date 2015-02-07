@@ -7,7 +7,7 @@
     "require-dev": {
         "phpunit/phpunit": "3.7.28",
         "simpletest/simpletest": "1.1.6",
-        "behat/behat": "2.5.3"
+        "behat/behat": "3.0.14"
     },
     "autoload": {
         "psr-4": {"Application\\": "src/"}
