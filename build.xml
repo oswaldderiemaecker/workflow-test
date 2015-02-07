@@ -1,0 +1,8 @@
+<project name="workflow-test" default="help" basedir=".">
+    <target name="help" description="List available targets">
+        <exec executable="phing.phar"
+              passthru="true">
+            <arg value="-l"/>
+        </exec>
+    </target>
+</project>
