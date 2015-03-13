@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1f3935601d098d26e67e9f599d5c8b30",
+    "hash": "3aba033b47bf9cdb3df0a14f93e91847",
     "packages": [],
     "packages-dev": [
         {
@@ -498,90 +498,18 @@
             "time": "2013-01-13 10:24:48"
         },
         {
-            "name": "simpletest/simpletest",
-            "version": "v1.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/simpletest/simpletest.git",
-                "reference": "43d947f842b7295c091a57c979a4533d3d6e9212"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/simpletest/simpletest/zipball/43d947f842b7295c091a57c979a4533d3d6e9212",
-                "reference": "43d947f842b7295c091a57c979a4533d3d6e9212",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.0.5"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "."
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Lars Vierbergen",
-                    "email": "vierbergenlars@gmail.com"
-                },
-                {
-                    "name": "Lachlan Donald",
-                    "email": "lachlan@ljd.cc"
-                },
-                {
-                    "name": "Marcus Baker",
-                    "email": "marcus@lastcraft.com",
-                    "role": "Original project lead"
-                },
-                {
-                    "name": "Jason Sweat",
-                    "role": "Original developer"
-                },
-                {
-                    "name": "Travis Swicegood",
-                    "role": "Original developer"
-                },
-                {
-                    "name": "Perrick Penet",
-                    "role": "Original developer"
-                },
-                {
-                    "name": "Edward Z. Yang",
-                    "role": "Original developer"
-                }
-            ],
-            "description": "Unit testing, mock objects and web testing framework for PHP built around test cases.",
-            "homepage": "http://simpletest.org/",
-            "keywords": [
-                "SimpleTest",
-                "code-coverage",
-                "junit",
-                "php",
-                "selenium",
-                "testing",
-                "unit-test",
-                "xunit"
-            ],
-            "time": "2013-09-21 21:04:19"
-        },
-        {
             "name": "symfony/config",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/Config",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Config.git",
-                "reference": "d94f222eff99a22ce313555b78642b4873418d56"
+                "reference": "a9f781ba1221067d1f07c8cec0bc50f81b8d7408"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Config/zipball/d94f222eff99a22ce313555b78642b4873418d56",
-                "reference": "d94f222eff99a22ce313555b78642b4873418d56",
+                "url": "https://api.github.com/repos/symfony/Config/zipball/a9f781ba1221067d1f07c8cec0bc50f81b8d7408",
+                "reference": "a9f781ba1221067d1f07c8cec0bc50f81b8d7408",
                 "shasum": ""
             },
             "require": {
@@ -615,21 +543,21 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-03 08:01:59"
+            "time": "2015-01-21 20:57:55"
         },
         {
             "name": "symfony/console",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "6ac6491ff60c0e5a941db3ccdc75a07adbb61476"
+                "reference": "e44154bfe3e41e8267d7a3794cd9da9a51cfac34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/6ac6491ff60c0e5a941db3ccdc75a07adbb61476",
-                "reference": "6ac6491ff60c0e5a941db3ccdc75a07adbb61476",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/e44154bfe3e41e8267d7a3794cd9da9a51cfac34",
+                "reference": "e44154bfe3e41e8267d7a3794cd9da9a51cfac34",
                 "shasum": ""
             },
             "require": {
@@ -672,21 +600,21 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-06 17:50:02"
+            "time": "2015-01-25 04:39:26"
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/DependencyInjection",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DependencyInjection.git",
-                "reference": "72db9adf2f6c42e773108038bcdaff263f325b4e"
+                "reference": "42bbb43fab66292a1865dc9616c299904c3d4d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DependencyInjection/zipball/72db9adf2f6c42e773108038bcdaff263f325b4e",
-                "reference": "72db9adf2f6c42e773108038bcdaff263f325b4e",
+                "url": "https://api.github.com/repos/symfony/DependencyInjection/zipball/42bbb43fab66292a1865dc9616c299904c3d4d14",
+                "reference": "42bbb43fab66292a1865dc9616c299904c3d4d14",
                 "shasum": ""
             },
             "require": {
@@ -732,21 +660,21 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-05 17:41:06"
+            "time": "2015-01-25 04:39:26"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "40ff70cadea3785d83cac1c8309514b36113064e"
+                "reference": "f75989f3ab2743a82fe0b03ded2598a2b1546813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/40ff70cadea3785d83cac1c8309514b36113064e",
-                "reference": "40ff70cadea3785d83cac1c8309514b36113064e",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/f75989f3ab2743a82fe0b03ded2598a2b1546813",
+                "reference": "f75989f3ab2743a82fe0b03ded2598a2b1546813",
                 "shasum": ""
             },
             "require": {
@@ -790,11 +718,11 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-05 14:28:40"
+            "time": "2015-02-01 16:10:57"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
@@ -841,7 +769,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
@@ -888,7 +816,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/Translation",
             "source": {
                 "type": "git",
@@ -946,17 +874,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.6.3",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "82462a90848a52c2533aa6b598b107d68076b018"
+                "reference": "60ed7751671113cf1ee7d7778e691642c2e9acd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/82462a90848a52c2533aa6b598b107d68076b018",
-                "reference": "82462a90848a52c2533aa6b598b107d68076b018",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/60ed7751671113cf1ee7d7778e691642c2e9acd8",
+                "reference": "60ed7751671113cf1ee7d7778e691642c2e9acd8",
                 "shasum": ""
             },
             "require": {
@@ -989,7 +917,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-03 15:33:07"
+            "time": "2015-01-25 04:39:26"
         }
     ],
     "aliases": [],
