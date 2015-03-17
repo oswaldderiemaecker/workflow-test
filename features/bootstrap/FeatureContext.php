@@ -47,6 +47,6 @@ class FeatureContext extends BehatContext
      */
     public function step($arg1)
     {
-        throw new \Behat\Behat\Exception\BehaviorException();
+        new XYZ();
     }
 }
