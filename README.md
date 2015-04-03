@@ -13,3 +13,5 @@ branch with no build:
 failure:
 [![Build Status](https://status-staging.continuousphp.com/git-hub/continuousphptest/workflow-test?branch=failure)](https://staging.continuousphp.com/git-hub/continuousphptest/workflow-test)
 
+Master:
+[![Build Status](https://status-staging.continuousphp.com/git-hub/continuousphptest/workflow-test?branch=master)](https://staging.continuousphp.com/git-hub/continuousphptest/workflow-test)
