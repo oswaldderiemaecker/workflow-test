@@ -10,3 +10,6 @@ develop:
 branch with no build:
 [![Build Status](https://status-staging.continuousphp.com/git-hub/continuousphptest/workflow-test?branch=xxxxxx)](https://staging.continuousphp.com/git-hub/continuousphptest/workflow-test)
 
+failure:
+[![Build Status](https://status-staging.continuousphp.com/git-hub/continuousphptest/workflow-test?branch=failure)](https://staging.continuousphp.com/git-hub/continuousphptest/workflow-test)
+
