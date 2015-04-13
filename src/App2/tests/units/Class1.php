@@ -14,6 +14,6 @@ class Class1 extends atoum\test
         $class1->method1();
         $class1->method2();
 
-        $this->string('test')->isEqualTo('test');
+        $this->string('test')->isEqualTo('testx');
     }
 }
