@@ -9,7 +9,8 @@
     "simpletest/simpletest": "1.1.6",
     "behat/behat": "2.5.3",
     "squizlabs/php_codesniffer": "2.3.0",
-    "fabpot/php-cs-fixer": "1.6.1"
+    "fabpot/php-cs-fixer": "1.6.1",
+    "atoum/atoum": "2.0.1"
   },
   "autoload": {
     "psr-4": {"Application\\": "src/"}
