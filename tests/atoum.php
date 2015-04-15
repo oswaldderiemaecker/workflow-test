@@ -1,0 +1,3 @@
+<?php
+
+// atoum config file
