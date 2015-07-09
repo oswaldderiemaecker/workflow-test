@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: /behat
+    destination: /var/www/html/
+  - source: /simpletest
+    destination: /var/www/html/
+  - source: /src
+    destination: /var/www/html/
+  - source: /tests
+    destination: /var/www/html/
+  - source: /README.md
+    destination: /var/www/html/
