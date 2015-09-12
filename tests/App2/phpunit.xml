@@ -16,11 +16,6 @@
          testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
          strict="true"
          verbose="true">
-    <testsuites>
-        <testsuite name="Application test suite">
-            <directory>ApplicationTest</directory>
-        </testsuite>
-    </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">../../src</directory>
