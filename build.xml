@@ -5,4 +5,23 @@
             <arg value="-l"/>
         </exec>
     </target>
+
+    <target name="bitbucket-credentials" description="Inject Bitbucket credentials for composer">
+        <echo msg="Injecting Bitbucket credentials for composer..." />
+        <if>
+            <isset property="env"/>
+            <then>
+                <exec command="whoami" outputProperty="currentuser" />
+                <loadfile property="bitbucket.config" file="./resources/${env}/composer/auth.json">
+                    <filterchain>
+                        <replacetokens>
+                            <token key="bitbucket.login" value="${bitbucket.login}"/>
+                            <token key="bitbucket.password" value="${bitbucket.password}"/>
+                        </replacetokens>
+                    </filterchain>
+                </loadfile>
+                <echo message="${bitbucket.config}" file="/home/${currentuser}/.composer/auth.json" />
+            </then>
+        </if>
+    </target>
 </project>

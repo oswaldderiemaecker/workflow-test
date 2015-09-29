@@ -7,6 +7,7 @@
 /.cache
 /.zfproject.xml
 /vendor
+/my-subfolder/vendor
 /build
 .DS_Store
 .sass-cache
