@@ -2,7 +2,8 @@
   "name": "continuousphptest/workflow-test",
   "homepage": "http://continuousphp.com/",
   "require": {
-    "php": ">=5.5"
+    "php": ">=5.5",
+    "doctrine/doctrine-orm-module": "0.9.1"
   },
   "require-dev": {
     "phpunit/phpunit": "5.0.8",
