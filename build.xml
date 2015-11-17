@@ -1,4 +1,10 @@
 <project name="workflow-test" default="help" basedir=".">
+    <property file="./build.properties" />
+
+    <target name="link-docroot" description="Link site document root to Apache document root">
+        <symlink link="${server.docroot}/www" target="${project.code.dir}" overwrite="true" />
+    </target>
+
     <target name="help" description="List available targets">
         <exec executable="phing.phar"
               passthru="true">
