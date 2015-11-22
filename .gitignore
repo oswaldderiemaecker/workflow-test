@@ -14,3 +14,5 @@ composer.phar
 *.box
 packer_cache
 config/autoload/aws.local.php
+
+tests/_output/*
