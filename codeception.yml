@@ -1,4 +1,6 @@
 actor: Tester
+coverage:
+    enabled: true
 paths:
     tests: tests
     log: tests/_output
