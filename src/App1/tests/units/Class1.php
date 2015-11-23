@@ -13,6 +13,7 @@ class Class1 extends atoum\test
         $class1 = new \Application\App1\Class1();
         $class1->method1();
 
+
         $this->string('test')->isEqualTo('test');
     }
 
