@@ -3,11 +3,11 @@ coverage:
     enabled: true
     c3_url: 'http://localhost/c3.php'
     whitelist:
-            include:
-                - src/*
-        blacklist:
-            include:
-                - vendor/*
+        include:
+            - src/*
+    blacklist:
+        include:
+            - vendor/*
 paths:
     tests: tests
     log: tests/_output
