@@ -2,6 +2,8 @@
 // @codingStandardsIgnoreFile
 // @codeCoverageIgnoreStart
 
+require_once('../vendor/autoload.php');
+
 /**
  * C3 - Codeception Code Coverage
  *
