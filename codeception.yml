@@ -1,6 +1,7 @@
 actor: Tester
 coverage:
     enabled: true
+    c3_url: 'http://localhost/c3.php'
 paths:
     tests: tests
     log: tests/_output
