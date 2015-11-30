@@ -11,4 +11,8 @@
             <arg value="-l"/>
         </exec>
     </target>
+
+    <target name="setenv" description="set environment variables">
+        <exec command="export MY_VAR=my_value" />
+    </target>
 </project>
