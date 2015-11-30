@@ -13,6 +13,6 @@
     </target>
 
     <target name="setenv" description="set environment variables">
-        <exec command="export MY_VAR=my_value" />
+        <append destFile="./test.txt" text="putenv('MY_VAR=my_value');" />
     </target>
 </project>
