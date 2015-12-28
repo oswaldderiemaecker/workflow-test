@@ -15,4 +15,20 @@
     <target name="setenv" description="set environment variables">
         <append destFile="./test.txt" text="putenv('MY_VAR=my_value');" />
     </target>
+
+    <target name="bundler-exec">
+        <echo message="Install dependencies"/>
+        <exec dir="${project.basedir}"
+              command="rbenv versions ; rbenv local 1.9.3-p551 ; rbenv version ; bundle install"
+              checkreturn="true"
+              passthru="true"/>
+    </target>
+
+    <target name="start-mailcatcher">
+        <echo message="Start the mailca"/>
+        <exec dir="${project.basedir}"
+              command="mailcatcher"
+              checkreturn="true"
+              passthru="true"/>
+    </target>
 </project>
