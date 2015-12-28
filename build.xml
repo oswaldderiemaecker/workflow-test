@@ -27,7 +27,7 @@
     <target name="install-mailcatcher">
         <echo message="Install mailcatcher"/>
         <exec dir="${project.basedir}"
-              command="rbenv versions ; rbenv local 1.9.3-p551 ; rbenv version ; gem install mailcatcher"
+              command="rbenv versions ; rbenv local 1.9.3-p551 ; rbenv version ; gem install mailcatcher; rbenv rehash"
               checkreturn="true"
               passthru="true"/>
     </target>
