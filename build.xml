@@ -24,8 +24,16 @@
               passthru="true"/>
     </target>
 
+    <target name="install-mailcatcher">
+        <echo message="Install mailcatcher"/>
+        <exec dir="${project.basedir}"
+              command="gem install mailcatcher"
+              checkreturn="true"
+              passthru="true"/>
+    </target>
+
     <target name="start-mailcatcher">
-        <echo message="Start the mailca"/>
+        <echo message="Start mailcatcher"/>
         <exec dir="${project.basedir}"
               command="mailcatcher"
               checkreturn="true"
