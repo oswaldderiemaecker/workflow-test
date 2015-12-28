@@ -27,7 +27,7 @@
     <target name="install-mailcatcher">
         <echo message="Install mailcatcher"/>
         <exec dir="${project.basedir}"
-              command="gem install mailcatcher"
+              command="sudo gem install mailcatcher"
               checkreturn="true"
               passthru="true"/>
     </target>
