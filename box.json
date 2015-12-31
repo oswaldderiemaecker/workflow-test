@@ -1,0 +1,10 @@
+{
+  "files": [
+    "src/",
+    "public/  ",
+    "build.xml"
+  ],
+  "main": "public/index.php",
+  "output": "example.phar",
+  "stub": true
+}

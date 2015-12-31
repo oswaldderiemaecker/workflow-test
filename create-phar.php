@@ -7,7 +7,12 @@ $phar = new Phar(
     FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::KEY_AS_FILENAME, "myapp.phar"
 );
 
-$phar["public/index.php"] = file_get_contents($srcRoot . "/public/index.php");
+/*$phar["public/index.php"] = file_get_contents($srcRoot . "/public/index.php");
 $phar["public/test.php"] = file_get_contents($srcRoot . "/public/test.php");
 $phar[".atoum.php"] = file_get_contents($srcRoot . "/.atoum.php");
-$phar->setStub($phar->createDefaultStub("public/index.php"));
+$phar->setStub($phar->createDefaultStub("public/index.php"));*/
+
+//$phar->buildFromDirectory('src');
+$phar->buildFromDirectory('vendor');
+$phar->buildFromDirectory('phar1');
+$phar->setStub($phar->createDefaultStub("phar1/f1.php"));
