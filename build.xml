@@ -1,6 +1,17 @@
 <project name="workflow-test" default="help" basedir=".">
     <property file="./build.properties" />
 
+    <import file="./vendor/continuousphp/phing-tasks/tasks.xml"/>
+
+    <continuousphp-config token="d1719362f6ee23999c0cbd13323f6d31440206b9" />
+
+    <continuousphp-package
+            provider="git-hub"
+            repository="continuousphptest/workflow-test"
+            reference="refs/heads/master"
+            destination="/tmp"
+            property="package.path" />
+
     <target name="link-docroot" description="Link site document root to Apache document root">
         <symlink link="${server.docroot}/www" target="${project.code.dir}" overwrite="true" />
     </target>

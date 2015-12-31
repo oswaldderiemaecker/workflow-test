@@ -3,7 +3,8 @@
   "homepage": "http://continuousphp.com/",
   "require": {
     "php": ">=5.5",
-    "doctrine/doctrine-orm-module": "0.9.1"
+    "doctrine/doctrine-orm-module": "0.9.1",
+    "continuousphp/phing-tasks": "~0.1"
   },
   "require-dev": {
     "codeception/codeception": "~2.0",
