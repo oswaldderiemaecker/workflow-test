@@ -4,6 +4,7 @@
     <import file="./vendor/continuousphp/phing-tasks/tasks.xml"/>
 
     <target name="download-frontend-package" description="Download frontend package">
+        <exec command="pear install Archive_Tar" checkreturn="true" passthru="true" />
         <continuousphp-config token="${cphp.token}" />
 
         <echo message="Downloading the package of the last build.."/>
