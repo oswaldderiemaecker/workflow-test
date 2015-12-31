@@ -3,7 +3,7 @@
 
     <import file="./vendor/continuousphp/phing-tasks/tasks.xml"/>
 
-    <continuousphp-config token="d1719362f6ee23999c0cbd13323f6d31440206b9" />
+    <continuousphp-config token="${cphp.token}" />
 
     <continuousphp-package
             provider="git-hub"
