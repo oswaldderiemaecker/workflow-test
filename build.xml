@@ -1,9 +1,10 @@
 <project name="workflow-test" default="help" basedir=".">
-    <property file="./build.properties" />
-
     <import file="./vendor/continuousphp/phing-tasks/tasks.xml"/>
 
+    <property file="./build.properties" />
+
     <target name="download-frontend-package" description="Download frontend package">
+        <mkdir dir="tmp" />
         <continuousphp-config token="${cphp.token}" />
 
         <echo message="Downloading the package of the last build.."/>
