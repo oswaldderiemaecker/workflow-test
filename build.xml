@@ -4,7 +4,6 @@
     <import file="./vendor/continuousphp/phing-tasks/tasks.xml"/>
 
     <target name="download-frontend-package" description="Download frontend package">
-        <exec command="sudo pear install Archive_Tar" checkreturn="true" passthru="true" />
         <continuousphp-config token="${cphp.token}" />
 
         <echo message="Downloading the package of the last build.."/>
@@ -16,12 +15,7 @@
                 property="package.path" />
 
         <echo message="Extracting the package.."/>
-        <untar file="tmp/deploy-package.tar.gz" todir="tmp">
-            <fileset dir=".">
-                <include name="*.tar.gz"/>
-                <include name="*.tar"/>
-            </fileset>
-        </untar>
+        <exec command="cd tmp; tar xzf deploy-package.tar.gz" checkreturn="true" passthru="true" />
     </target>
 
     <target name="link-docroot" description="Link site document root to Apache document root">
