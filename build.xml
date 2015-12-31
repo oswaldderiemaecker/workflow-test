@@ -3,15 +3,24 @@
 
     <import file="./vendor/continuousphp/phing-tasks/tasks.xml"/>
 
-    <target name="download-package" description="Download package example">
+    <target name="download-frontend-package" description="Download frontend package">
         <continuousphp-config token="${cphp.token}" />
 
+        <echo message="Downloading the package of the last build.."/>
         <continuousphp-package
                 provider="git-hub"
                 repository="continuousphptest/workflow-test"
                 reference="refs/heads/master"
-                destination="/tmp"
+                destination="tmp"
                 property="package.path" />
+
+        <echo message="Extracting the package.."/>
+        <untar file="tmp/deploy-package.tar.gz" todir="tmp">
+            <fileset dir=".">
+                <include name="*.tar.gz"/>
+                <include name="*.tar"/>
+            </fileset>
+        </untar>
     </target>
 
     <target name="link-docroot" description="Link site document root to Apache document root">
