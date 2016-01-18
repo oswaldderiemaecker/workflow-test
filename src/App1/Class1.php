@@ -1,6 +1,6 @@
 <?php
 
-namespace Application\App1;
+namespace App1;
 
 class Class1
 {
@@ -14,30 +14,5 @@ class Class1
     {
         $var3 = 'var3';
         $var4 = 'var4';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

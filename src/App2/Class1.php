@@ -1,6 +1,6 @@
 <?php
 
-namespace Application\App2;
+namespace App2;
 
 class Class1
 {
