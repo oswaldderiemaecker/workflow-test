@@ -19,7 +19,7 @@ class ExampleTest extends \Codeception\TestCase\Test
     // tests
     public function testMe()
     {
-        $class1 = new \Application\App1\Class1();
+        $class1 = new \App1\Class1();
         $class1->method1();
         $class1->method2();
         $this->assertTrue(true);
