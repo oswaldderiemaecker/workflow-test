@@ -2,6 +2,8 @@
 <ruleset name="PHP_CodeSniffer">
     <description>The coding standard for PHP_CodeSniffer itself.</description>
 
+    <file>src</file>
+
     <exclude-pattern>*/features/*</exclude-pattern>
 
     <arg name="report" value="summary"/>
