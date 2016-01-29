@@ -1,7 +1,6 @@
 actor: Tester
 coverage:
     enabled: true
-    c3_url: 'http://localhost/c3.php'
     whitelist:
         include:
             - src/*
