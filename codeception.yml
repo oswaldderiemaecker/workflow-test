@@ -4,6 +4,7 @@ coverage:
     whitelist:
         include:
             - src/*
+            - tests/*
     blacklist:
         include:
             - vendor/*
