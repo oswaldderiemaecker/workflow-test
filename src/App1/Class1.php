@@ -11,6 +11,7 @@ class Class1
 
 
 
+
     }
 
     public function method2()
