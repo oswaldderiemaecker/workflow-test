@@ -1,6 +1,7 @@
 <project name="workflow-test" default="help" basedir=".">
     <import file="./vendor/continuousphp/phing-tasks/tasks.xml"/>
 
+
     <property file="./build.properties" />
 
     <target name="download-frontend-package" description="Download frontend package">
