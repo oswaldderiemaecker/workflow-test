@@ -25,15 +25,5 @@
   },
   "autoload": {
     "psr-4": {"Application\\": "src/"}
-  },
-  "scripts": {
-    "pre-install-cmd": [
-      "echo 'test pre install 1'",
-      "echo 'test pre install 2'"
-    ],
-    "post-install-cmd": [
-      "echo 'test post install 1'",
-      "echo 'test post install 2'"
-    ]
   }
 }
