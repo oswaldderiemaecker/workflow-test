@@ -2,6 +2,8 @@
 
 namespace App2\ApplicationTest;
 
+require_once __DIR__ . '/../../../src/App2/Class1.php';
+
 class Class1Test extends \PHPUnit_Framework_TestCase
 {
     /* @var $instance \App2\Class1 */
