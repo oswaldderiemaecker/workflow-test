@@ -1,3 +1,4 @@
+@javascript
 Feature: Feature 1
   In order to bla bla
   As a bla bla
