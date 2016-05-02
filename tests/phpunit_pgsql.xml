@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="tests/pdo/bootstrap.php" 
+         printerClass="PHPUnit_Util_TestDox_ResultPrinter_Text"
+         colors="true">
+    <php>
+        <var name="db_type" value="pgsql"/>                                                                                                        
+        <var name="db_name" value="hello_world_test"/>                                                                                                        
+        <var name="db_username" value="postgres"/>
+        <var name="db_password" value=""/>
+    </php>
+
+    <testsuites>
+        <testsuite name="Hello World Test Suite">
+            <directory>./itests/pdo</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory>./</directory>
+            <exclude>
+	       <directory>./tests/pdo</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
