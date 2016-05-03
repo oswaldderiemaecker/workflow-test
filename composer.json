@@ -2,7 +2,7 @@
   "name": "continuousphptest/workflow-test",
   "homepage": "http://continuousphp.com/",
   "require": {
-    "php": ">=5.5",
+    "php": ">=5.3",
     "doctrine/doctrine-orm-module": "0.9.1",
     "continuousphp/phing-tasks": "0.1.3",
     "guzzlehttp/guzzle-services": "~0.5"
