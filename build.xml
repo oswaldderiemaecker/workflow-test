@@ -46,7 +46,7 @@
        <echo message="Install dependencies"/>
        <echo>${env.SHELL}</echo>
        <exec dir="${project.basedir}"
-             command="source /etc/profile ; nvm list ; nvm use v4.2.1 ; nvm version"
+	     command=". $NVM_DIR/nvm.sh ; nvm list ; nvm use v4.2.1 ; nvm version"
              checkreturn="true"
              passthru="true"/>
     </target>

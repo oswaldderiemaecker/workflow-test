@@ -9,7 +9,7 @@ class GitHubChromeTest extends PHPUnit_Framework_TestCase {
     public function setUp()
     {
         $capabilities = array(\WebDriverCapabilityType::BROWSER_NAME => 'chrome');
-        $this->webDriver = RemoteWebDriver::create('http://localhost:4444/wd/hub', $capabilities);
+        $this->webDriver = RemoteWebDriver::create('http://192.168.99.100:4444/wd/hub', $capabilities);
     }
 
     protected $url = 'https://github.com';
