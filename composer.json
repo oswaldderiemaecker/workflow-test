@@ -21,7 +21,8 @@
     "atoum/atoum": "2.0.1",
     "phing/phing": "2.12.0",
     "kherge/box": "~2.6.0",
-    "phpspec/phpspec": "^2.4"
+    "phpspec/phpspec": "^2.4",
+    "facebook/webdriver": "dev-master"
   },
   "autoload": {
     "psr-4": {"Application\\": "src/"}
