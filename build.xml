@@ -42,6 +42,15 @@
               passthru="true"/>
     </target>
 
+    <target name="npm-exec">
+       <echo message="Install dependencies"/>
+       <echo>${env.SHELL}</echo>
+       <exec dir="${project.basedir}"
+             command="source /etc/profile ; nvm list ; nvm use v4.2.1 ; nvm version"
+             checkreturn="true"
+             passthru="true"/>
+    </target>
+
     <target name="install-mailcatcher">
         <echo message="Install mailcatcher"/>
         <exec dir="${project.basedir}"
