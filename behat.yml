@@ -6,8 +6,8 @@ default:
         - Behat\MinkExtension\Context\MinkContext
   extensions:
     Behat\MinkExtension:
-      base_url: http://localhost
+      base_url: http://192.168.99.100
       sessions:
         default:
           selenium2:
-            wd_host: "http://127.0.0.1:8643/wd/hub"
+            wd_host: "http://192.168.99.100:8643/wd/hub"
