@@ -1,2 +1,11 @@
 <?php
-// Here you can initialize variables that will be available to your tests
+
+function loader($class)
+{
+    $file = $class . '.php';
+    if (file_exists($file)) {
+        require $file;
+    }
+}
+
+spl_autoload_register('loader');
